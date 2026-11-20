@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ya es mañana | Fans</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="encabezado">
+    <div class="marca">
+      <svg class="logo" viewBox="0 0 40 40" aria-hidden="true">
+        <circle cx="20" cy="20" r="18" fill="#FF5C8A"/>
+        <path d="M12 28V12l8 9 8-9v16" fill="none" stroke="#FFF4FA" stroke-width="3" stroke-linejoin="round"/>
+      </svg>
+      <h1>Ya es mañana · Fan Page</h1>
+    </div>
+  </header>
+
+  <nav class="navegacion">
+    <ul class="botonera">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="gira.html">Gira</a></li>
+      <li><a href="canciones.html">Canciones</a></li>
+      <li><a href="fans.html" class="activo" aria-current="page">Fans</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Contanos tu experiencia</h2>
+    <p>¿Fuiste a un show? ¿Tenés una historia con una canción? Dejanos tu recuerdo y lo publicamos en la comunidad.</p>
+
+    <form class="formulario" action="#" method="post">
+      <div>
+        <label for="nombre">Nombre o nick</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nick de fan" required>
+      </div>
+      <div>
+        <label for="ciudad">Ciudad donde viste el show</label>
+        <select id="ciudad" name="ciudad">
+          <option>Bogotá</option>
+          <option>Ciudad de México</option>
+          <option>Buenos Aires</option>
+          <option>Santiago</option>
+          <option>Otra</option>
+        </select>
+      </div>
+      <div>
+        <label for="cancion">Tu canción favorita</label>
+        <input type="text" id="cancion" name="cancion" placeholder="Ej: Ya es mañana">
+      </div>
+      <div>
+        <label for="historia">Tu historia</label>
+        <textarea id="historia" name="historia" rows="5" placeholder="Contá cómo fue tu experiencia"></textarea>
+      </div>
+      <button type="submit" class="boton">Enviar mi historia</button>
+    </form>
+
+    <h2>Lo que dice la comunidad</h2>
+    <section class="tarjetas">
+      <article class="tarjeta">
+        <img src="https://picsum.photos/seed/fan-1/400/300" alt="Fan con gorra sonriendo en un concierto">
+        <h3>@lucia.morat</h3>
+        <p>"Fui con mi mejor amiga y terminamos llorando en el coro. Inolvidable."</p>
+      </article>
+      <article class="tarjeta">
+        <img src="https://picsum.photos/seed/fan-2/400/300" alt="Fan levantando las manos en un show">
+        <h3>@tomi.yem</h3>
+        <p>"Llegué solo y me fui con diez amigos nuevos. Así es la música."</p>
+      </article>
+      <article class="tarjeta">
+        <img src="https://picsum.photos/seed/fan-3/400/300" alt="Grupo de fans con carteles">
+        <h3>@sofi.enlaulti</h3>
+        <p>"Mi primer concierto y ya quiero el próximo. Gracias por tanta energía."</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <h3>Ya es mañana · Fan Page</h3>
+    <p>Fan page no oficial, creada por y para fans · contacto@yaesmanana.fan</p>
+    <p>
+      <a href="https://instagram.com/yaesmanana.fan" target="_blank">Instagram</a> ·
+      <a href="https://tiktok.com/@yaesmanana.fan" target="_blank">TikTok</a> ·
+      <a href="https://x.com/yaesmanana_fan" target="_blank">X</a>
+    </p>
+    <small>© 2026 Ya es mañana Fan Page. Morat es marca de sus respectivos autores. Todos los derechos reservados.</small>
+  </footer>
+
+</body>
+</html>
