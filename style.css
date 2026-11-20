@@ -48,12 +48,21 @@ p {
     line-height: 1.6;
 }
 
-/* Imágenes */
+/* Imágenes principales */
 .principal {
     width: 100%;
-    height: 300px;
-    object-fit: cover;
+    height: 350px;
+    object-fit: contain;
     border-radius: 10px;
+    background-color: white;
+}
+
+/* Imágenes de las tarjetas */
+article img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 8px;
 }
 
 /* Tarjetas */
